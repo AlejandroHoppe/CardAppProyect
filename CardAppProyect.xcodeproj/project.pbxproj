@@ -13,6 +13,14 @@
 		335EF08127A3136C0035A467 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 335EF07F27A3136C0035A467 /* Main.storyboard */; };
 		335EF08327A3136D0035A467 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 335EF08227A3136D0035A467 /* Assets.xcassets */; };
 		335EF08627A3136D0035A467 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 335EF08427A3136D0035A467 /* LaunchScreen.storyboard */; };
+		335EF08E27A315760035A467 /* UserStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 335EF08D27A315760035A467 /* UserStoryboard.storyboard */; };
+		335EF09027A316910035A467 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335EF08F27A316910035A467 /* LoginViewController.swift */; };
+		335EF09427A316AB0035A467 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335EF09127A316AB0035A467 /* SearchViewController.swift */; };
+		335EF09527A316AB0035A467 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335EF09227A316AB0035A467 /* HomeViewController.swift */; };
+		335EF09627A316AB0035A467 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335EF09327A316AB0035A467 /* RegisterViewController.swift */; };
+		335EF09A27A3197E0035A467 /* DaniStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 335EF09927A3197E0035A467 /* DaniStoryboard.storyboard */; };
+		335EF09C27A3198F0035A467 /* TonyStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 335EF09B27A3198F0035A467 /* TonyStoryboard.storyboard */; };
+		335EF09E27A319980035A467 /* CesarStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 335EF09D27A319980035A467 /* CesarStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		335EF08227A3136D0035A467 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		335EF08527A3136D0035A467 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		335EF08727A3136D0035A467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		335EF08D27A315760035A467 /* UserStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserStoryboard.storyboard; sourceTree = "<group>"; };
+		335EF08F27A316910035A467 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = "../../../../Downloads/CardApp 4/CardApp/LoginViewController.swift"; sourceTree = "<group>"; };
+		335EF09127A316AB0035A467 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchViewController.swift; path = "../../../../Downloads/CardApp 4/CardApp/SearchViewController.swift"; sourceTree = "<group>"; };
+		335EF09227A316AB0035A467 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = "../../../../Downloads/CardApp 4/CardApp/HomeViewController.swift"; sourceTree = "<group>"; };
+		335EF09327A316AB0035A467 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterViewController.swift; path = "../../../../Downloads/CardApp 4/CardApp/RegisterViewController.swift"; sourceTree = "<group>"; };
+		335EF09927A3197E0035A467 /* DaniStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DaniStoryboard.storyboard; sourceTree = "<group>"; };
+		335EF09B27A3198F0035A467 /* TonyStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TonyStoryboard.storyboard; sourceTree = "<group>"; };
+		335EF09D27A319980035A467 /* CesarStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CesarStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +73,17 @@
 			isa = PBXGroup;
 			children = (
 				335EF07927A3136C0035A467 /* AppDelegate.swift */,
+				335EF09927A3197E0035A467 /* DaniStoryboard.storyboard */,
+				335EF09B27A3198F0035A467 /* TonyStoryboard.storyboard */,
+				335EF09D27A319980035A467 /* CesarStoryboard.storyboard */,
 				335EF07B27A3136C0035A467 /* SceneDelegate.swift */,
 				335EF07D27A3136C0035A467 /* ViewController.swift */,
 				335EF07F27A3136C0035A467 /* Main.storyboard */,
+				335EF08D27A315760035A467 /* UserStoryboard.storyboard */,
+				335EF08F27A316910035A467 /* LoginViewController.swift */,
+				335EF09227A316AB0035A467 /* HomeViewController.swift */,
+				335EF09327A316AB0035A467 /* RegisterViewController.swift */,
+				335EF09127A316AB0035A467 /* SearchViewController.swift */,
 				335EF08227A3136D0035A467 /* Assets.xcassets */,
 				335EF08427A3136D0035A467 /* LaunchScreen.storyboard */,
 				335EF08727A3136D0035A467 /* Info.plist */,
@@ -124,6 +148,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				335EF09E27A319980035A467 /* CesarStoryboard.storyboard in Resources */,
+				335EF09C27A3198F0035A467 /* TonyStoryboard.storyboard in Resources */,
+				335EF08E27A315760035A467 /* UserStoryboard.storyboard in Resources */,
+				335EF09A27A3197E0035A467 /* DaniStoryboard.storyboard in Resources */,
 				335EF08627A3136D0035A467 /* LaunchScreen.storyboard in Resources */,
 				335EF08327A3136D0035A467 /* Assets.xcassets in Resources */,
 				335EF08127A3136C0035A467 /* Main.storyboard in Resources */,
@@ -137,9 +165,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				335EF09427A316AB0035A467 /* SearchViewController.swift in Sources */,
+				335EF09027A316910035A467 /* LoginViewController.swift in Sources */,
+				335EF09627A316AB0035A467 /* RegisterViewController.swift in Sources */,
 				335EF07E27A3136C0035A467 /* ViewController.swift in Sources */,
 				335EF07A27A3136C0035A467 /* AppDelegate.swift in Sources */,
 				335EF07C27A3136C0035A467 /* SceneDelegate.swift in Sources */,
+				335EF09527A316AB0035A467 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
