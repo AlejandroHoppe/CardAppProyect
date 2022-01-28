@@ -21,6 +21,7 @@
 		337DB94D27A46F1100AAD2D3 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337DB94927A46F1000AAD2D3 /* RegisterViewController.swift */; };
 		337DB94E27A46F1100AAD2D3 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337DB94A27A46F1000AAD2D3 /* SearchViewController.swift */; };
 		337DB94F27A46F1100AAD2D3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337DB94B27A46F1000AAD2D3 /* LoginViewController.swift */; };
+		33B281F827A47CEC00AEB55C /* CartaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B281F727A47CEC00AEB55C /* CartaCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		337DB94927A46F1000AAD2D3 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		337DB94A27A46F1000AAD2D3 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		337DB94B27A46F1000AAD2D3 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		33B281F727A47CEC00AEB55C /* CartaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartaCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,23 +74,48 @@
 		335EF07827A3136B0035A467 /* CardAppProyect */ = {
 			isa = PBXGroup;
 			children = (
-				337DB94827A46F1000AAD2D3 /* HomeViewController.swift */,
-				337DB94B27A46F1000AAD2D3 /* LoginViewController.swift */,
-				337DB94927A46F1000AAD2D3 /* RegisterViewController.swift */,
-				337DB94A27A46F1000AAD2D3 /* SearchViewController.swift */,
+				33B281F627A47A9C00AEB55C /* controllers */,
+				33B281F527A47A9500AEB55C /* cells */,
+				33B281F427A47A8E00AEB55C /* layouts */,
 				335EF07927A3136C0035A467 /* AppDelegate.swift */,
-				335EF09927A3197E0035A467 /* DaniStoryboard.storyboard */,
-				335EF09B27A3198F0035A467 /* TonyStoryboard.storyboard */,
-				335EF09D27A319980035A467 /* CesarStoryboard.storyboard */,
 				335EF07B27A3136C0035A467 /* SceneDelegate.swift */,
 				335EF07D27A3136C0035A467 /* ViewController.swift */,
-				335EF07F27A3136C0035A467 /* Main.storyboard */,
-				335EF08D27A315760035A467 /* UserStoryboard.storyboard */,
 				335EF08227A3136D0035A467 /* Assets.xcassets */,
 				335EF08427A3136D0035A467 /* LaunchScreen.storyboard */,
 				335EF08727A3136D0035A467 /* Info.plist */,
 			);
 			path = CardAppProyect;
+			sourceTree = "<group>";
+		};
+		33B281F427A47A8E00AEB55C /* layouts */ = {
+			isa = PBXGroup;
+			children = (
+				335EF09927A3197E0035A467 /* DaniStoryboard.storyboard */,
+				335EF09B27A3198F0035A467 /* TonyStoryboard.storyboard */,
+				335EF09D27A319980035A467 /* CesarStoryboard.storyboard */,
+				335EF07F27A3136C0035A467 /* Main.storyboard */,
+				335EF08D27A315760035A467 /* UserStoryboard.storyboard */,
+			);
+			path = layouts;
+			sourceTree = "<group>";
+		};
+		33B281F527A47A9500AEB55C /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				33B281F727A47CEC00AEB55C /* CartaCell.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		33B281F627A47A9C00AEB55C /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				337DB94827A46F1000AAD2D3 /* HomeViewController.swift */,
+				337DB94B27A46F1000AAD2D3 /* LoginViewController.swift */,
+				337DB94927A46F1000AAD2D3 /* RegisterViewController.swift */,
+				337DB94A27A46F1000AAD2D3 /* SearchViewController.swift */,
+			);
+			path = controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,6 +197,7 @@
 				335EF07E27A3136C0035A467 /* ViewController.swift in Sources */,
 				337DB94D27A46F1100AAD2D3 /* RegisterViewController.swift in Sources */,
 				335EF07A27A3136C0035A467 /* AppDelegate.swift in Sources */,
+				33B281F827A47CEC00AEB55C /* CartaCell.swift in Sources */,
 				335EF07C27A3136C0035A467 /* SceneDelegate.swift in Sources */,
 				337DB94C27A46F1100AAD2D3 /* HomeViewController.swift in Sources */,
 			);

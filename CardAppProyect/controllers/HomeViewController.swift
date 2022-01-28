@@ -11,6 +11,9 @@ class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+            
+            view1.layer.cornerRadius = 20
+            
         
         //hygyugyugyug
         
