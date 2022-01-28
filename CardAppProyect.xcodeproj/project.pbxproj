@@ -14,13 +14,13 @@
 		335EF08327A3136D0035A467 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 335EF08227A3136D0035A467 /* Assets.xcassets */; };
 		335EF08627A3136D0035A467 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 335EF08427A3136D0035A467 /* LaunchScreen.storyboard */; };
 		335EF08E27A315760035A467 /* UserStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 335EF08D27A315760035A467 /* UserStoryboard.storyboard */; };
-		335EF09027A316910035A467 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335EF08F27A316910035A467 /* LoginViewController.swift */; };
-		335EF09427A316AB0035A467 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335EF09127A316AB0035A467 /* SearchViewController.swift */; };
-		335EF09527A316AB0035A467 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335EF09227A316AB0035A467 /* HomeViewController.swift */; };
-		335EF09627A316AB0035A467 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335EF09327A316AB0035A467 /* RegisterViewController.swift */; };
 		335EF09A27A3197E0035A467 /* DaniStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 335EF09927A3197E0035A467 /* DaniStoryboard.storyboard */; };
 		335EF09C27A3198F0035A467 /* TonyStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 335EF09B27A3198F0035A467 /* TonyStoryboard.storyboard */; };
 		335EF09E27A319980035A467 /* CesarStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 335EF09D27A319980035A467 /* CesarStoryboard.storyboard */; };
+		337DB94C27A46F1100AAD2D3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337DB94827A46F1000AAD2D3 /* HomeViewController.swift */; };
+		337DB94D27A46F1100AAD2D3 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337DB94927A46F1000AAD2D3 /* RegisterViewController.swift */; };
+		337DB94E27A46F1100AAD2D3 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337DB94A27A46F1000AAD2D3 /* SearchViewController.swift */; };
+		337DB94F27A46F1100AAD2D3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337DB94B27A46F1000AAD2D3 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,13 +33,13 @@
 		335EF08527A3136D0035A467 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		335EF08727A3136D0035A467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		335EF08D27A315760035A467 /* UserStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserStoryboard.storyboard; sourceTree = "<group>"; };
-		335EF08F27A316910035A467 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = "../../../../Downloads/CardApp 4/CardApp/LoginViewController.swift"; sourceTree = "<group>"; };
-		335EF09127A316AB0035A467 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchViewController.swift; path = "../../../../Downloads/CardApp 4/CardApp/SearchViewController.swift"; sourceTree = "<group>"; };
-		335EF09227A316AB0035A467 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = "../../../../Downloads/CardApp 4/CardApp/HomeViewController.swift"; sourceTree = "<group>"; };
-		335EF09327A316AB0035A467 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterViewController.swift; path = "../../../../Downloads/CardApp 4/CardApp/RegisterViewController.swift"; sourceTree = "<group>"; };
 		335EF09927A3197E0035A467 /* DaniStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DaniStoryboard.storyboard; sourceTree = "<group>"; };
 		335EF09B27A3198F0035A467 /* TonyStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TonyStoryboard.storyboard; sourceTree = "<group>"; };
 		335EF09D27A319980035A467 /* CesarStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CesarStoryboard.storyboard; sourceTree = "<group>"; };
+		337DB94827A46F1000AAD2D3 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		337DB94927A46F1000AAD2D3 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		337DB94A27A46F1000AAD2D3 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		337DB94B27A46F1000AAD2D3 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +72,10 @@
 		335EF07827A3136B0035A467 /* CardAppProyect */ = {
 			isa = PBXGroup;
 			children = (
+				337DB94827A46F1000AAD2D3 /* HomeViewController.swift */,
+				337DB94B27A46F1000AAD2D3 /* LoginViewController.swift */,
+				337DB94927A46F1000AAD2D3 /* RegisterViewController.swift */,
+				337DB94A27A46F1000AAD2D3 /* SearchViewController.swift */,
 				335EF07927A3136C0035A467 /* AppDelegate.swift */,
 				335EF09927A3197E0035A467 /* DaniStoryboard.storyboard */,
 				335EF09B27A3198F0035A467 /* TonyStoryboard.storyboard */,
@@ -80,10 +84,6 @@
 				335EF07D27A3136C0035A467 /* ViewController.swift */,
 				335EF07F27A3136C0035A467 /* Main.storyboard */,
 				335EF08D27A315760035A467 /* UserStoryboard.storyboard */,
-				335EF08F27A316910035A467 /* LoginViewController.swift */,
-				335EF09227A316AB0035A467 /* HomeViewController.swift */,
-				335EF09327A316AB0035A467 /* RegisterViewController.swift */,
-				335EF09127A316AB0035A467 /* SearchViewController.swift */,
 				335EF08227A3136D0035A467 /* Assets.xcassets */,
 				335EF08427A3136D0035A467 /* LaunchScreen.storyboard */,
 				335EF08727A3136D0035A467 /* Info.plist */,
@@ -165,13 +165,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				335EF09427A316AB0035A467 /* SearchViewController.swift in Sources */,
-				335EF09027A316910035A467 /* LoginViewController.swift in Sources */,
-				335EF09627A316AB0035A467 /* RegisterViewController.swift in Sources */,
+				337DB94F27A46F1100AAD2D3 /* LoginViewController.swift in Sources */,
+				337DB94E27A46F1100AAD2D3 /* SearchViewController.swift in Sources */,
 				335EF07E27A3136C0035A467 /* ViewController.swift in Sources */,
+				337DB94D27A46F1100AAD2D3 /* RegisterViewController.swift in Sources */,
 				335EF07A27A3136C0035A467 /* AppDelegate.swift in Sources */,
 				335EF07C27A3136C0035A467 /* SceneDelegate.swift in Sources */,
-				335EF09527A316AB0035A467 /* HomeViewController.swift in Sources */,
+				337DB94C27A46F1100AAD2D3 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
