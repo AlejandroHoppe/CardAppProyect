@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3334EAF427A9AC8A006F6CA5 /* Cards.json in Resources */ = {isa = PBXBuildFile; fileRef = 3334EAF327A9AC8A006F6CA5 /* Cards.json */; };
 		335EF07A27A3136C0035A467 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335EF07927A3136C0035A467 /* AppDelegate.swift */; };
 		335EF07C27A3136C0035A467 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335EF07B27A3136C0035A467 /* SceneDelegate.swift */; };
 		335EF07E27A3136C0035A467 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335EF07D27A3136C0035A467 /* ViewController.swift */; };
@@ -21,9 +22,16 @@
 		337DB94D27A46F1100AAD2D3 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337DB94927A46F1000AAD2D3 /* RegisterViewController.swift */; };
 		337DB94E27A46F1100AAD2D3 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337DB94A27A46F1000AAD2D3 /* SearchViewController.swift */; };
 		337DB94F27A46F1100AAD2D3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337DB94B27A46F1000AAD2D3 /* LoginViewController.swift */; };
+		337DB95127A474C100AAD2D3 /* User.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 337DB95027A474C100AAD2D3 /* User.storyboard */; };
+		33ED2DCD27AADD7000F480ED /* ModeloCarta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ED2DCC27AADD7000F480ED /* ModeloCarta.swift */; };
+		33ED2DCF27AADE2C00F480ED /* Carta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ED2DCE27AADE2C00F480ED /* Carta.swift */; };
+		33ED2DD227AAE06B00F480ED /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ED2DD127AAE06B00F480ED /* MockData.swift */; };
+		33ED2DD427AAE1FF00F480ED /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ED2DD327AAE1FF00F480ED /* CardCell.swift */; };
+		33ED2DD627AAE54800F480ED /* PerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ED2DD527AAE54800F480ED /* PerfilViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3334EAF327A9AC8A006F6CA5 /* Cards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Cards.json; sourceTree = "<group>"; };
 		335EF07627A3136B0035A467 /* CardAppProyect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardAppProyect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		335EF07927A3136C0035A467 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		335EF07B27A3136C0035A467 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +48,12 @@
 		337DB94927A46F1000AAD2D3 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		337DB94A27A46F1000AAD2D3 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		337DB94B27A46F1000AAD2D3 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		337DB95027A474C100AAD2D3 /* User.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = User.storyboard; sourceTree = "<group>"; };
+		33ED2DCC27AADD7000F480ED /* ModeloCarta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeloCarta.swift; sourceTree = "<group>"; };
+		33ED2DCE27AADE2C00F480ED /* Carta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carta.swift; sourceTree = "<group>"; };
+		33ED2DD127AAE06B00F480ED /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		33ED2DD327AAE1FF00F480ED /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		33ED2DD527AAE54800F480ED /* PerfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +86,9 @@
 		335EF07827A3136B0035A467 /* CardAppProyect */ = {
 			isa = PBXGroup;
 			children = (
+				33ED2DD027AADE4F00F480ED /* New Group */,
 				337DB94827A46F1000AAD2D3 /* HomeViewController.swift */,
+				33ED2DD527AAE54800F480ED /* PerfilViewController.swift */,
 				337DB94B27A46F1000AAD2D3 /* LoginViewController.swift */,
 				337DB94927A46F1000AAD2D3 /* RegisterViewController.swift */,
 				337DB94A27A46F1000AAD2D3 /* SearchViewController.swift */,
@@ -83,12 +99,25 @@
 				335EF07B27A3136C0035A467 /* SceneDelegate.swift */,
 				335EF07D27A3136C0035A467 /* ViewController.swift */,
 				335EF07F27A3136C0035A467 /* Main.storyboard */,
+				337DB95027A474C100AAD2D3 /* User.storyboard */,
 				335EF08D27A315760035A467 /* UserStoryboard.storyboard */,
+				3334EAF327A9AC8A006F6CA5 /* Cards.json */,
+				33ED2DD327AAE1FF00F480ED /* CardCell.swift */,
 				335EF08227A3136D0035A467 /* Assets.xcassets */,
 				335EF08427A3136D0035A467 /* LaunchScreen.storyboard */,
 				335EF08727A3136D0035A467 /* Info.plist */,
 			);
 			path = CardAppProyect;
+			sourceTree = "<group>";
+		};
+		33ED2DD027AADE4F00F480ED /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				33ED2DD127AAE06B00F480ED /* MockData.swift */,
+				33ED2DCE27AADE2C00F480ED /* Carta.swift */,
+				33ED2DCC27AADD7000F480ED /* ModeloCarta.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,8 +182,10 @@
 				335EF08E27A315760035A467 /* UserStoryboard.storyboard in Resources */,
 				335EF09A27A3197E0035A467 /* DaniStoryboard.storyboard in Resources */,
 				335EF08627A3136D0035A467 /* LaunchScreen.storyboard in Resources */,
+				337DB95127A474C100AAD2D3 /* User.storyboard in Resources */,
 				335EF08327A3136D0035A467 /* Assets.xcassets in Resources */,
 				335EF08127A3136C0035A467 /* Main.storyboard in Resources */,
+				3334EAF427A9AC8A006F6CA5 /* Cards.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,7 +202,12 @@
 				337DB94D27A46F1100AAD2D3 /* RegisterViewController.swift in Sources */,
 				335EF07A27A3136C0035A467 /* AppDelegate.swift in Sources */,
 				335EF07C27A3136C0035A467 /* SceneDelegate.swift in Sources */,
+				33ED2DD627AAE54800F480ED /* PerfilViewController.swift in Sources */,
 				337DB94C27A46F1100AAD2D3 /* HomeViewController.swift in Sources */,
+				33ED2DD427AAE1FF00F480ED /* CardCell.swift in Sources */,
+				33ED2DCF27AADE2C00F480ED /* Carta.swift in Sources */,
+				33ED2DCD27AADD7000F480ED /* ModeloCarta.swift in Sources */,
+				33ED2DD227AAE06B00F480ED /* MockData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,7 +363,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = hoppe.CardAppProyect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -345,7 +381,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = hoppe.CardAppProyect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
