@@ -22,12 +22,16 @@
 		337DB94D27A46F1100AAD2D3 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337DB94927A46F1000AAD2D3 /* RegisterViewController.swift */; };
 		337DB94E27A46F1100AAD2D3 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337DB94A27A46F1000AAD2D3 /* SearchViewController.swift */; };
 		337DB94F27A46F1100AAD2D3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337DB94B27A46F1000AAD2D3 /* LoginViewController.swift */; };
+<<<<<<< HEAD
 		337DB95127A474C100AAD2D3 /* User.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 337DB95027A474C100AAD2D3 /* User.storyboard */; };
 		33ED2DCD27AADD7000F480ED /* ModeloCarta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ED2DCC27AADD7000F480ED /* ModeloCarta.swift */; };
 		33ED2DCF27AADE2C00F480ED /* Carta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ED2DCE27AADE2C00F480ED /* Carta.swift */; };
 		33ED2DD227AAE06B00F480ED /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ED2DD127AAE06B00F480ED /* MockData.swift */; };
 		33ED2DD427AAE1FF00F480ED /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ED2DD327AAE1FF00F480ED /* CardCell.swift */; };
 		33ED2DD627AAE54800F480ED /* PerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ED2DD527AAE54800F480ED /* PerfilViewController.swift */; };
+=======
+		33B281F827A47CEC00AEB55C /* CartaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B281F727A47CEC00AEB55C /* CartaCell.swift */; };
+>>>>>>> main
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,12 +52,16 @@
 		337DB94927A46F1000AAD2D3 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		337DB94A27A46F1000AAD2D3 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		337DB94B27A46F1000AAD2D3 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		337DB95027A474C100AAD2D3 /* User.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = User.storyboard; sourceTree = "<group>"; };
 		33ED2DCC27AADD7000F480ED /* ModeloCarta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeloCarta.swift; sourceTree = "<group>"; };
 		33ED2DCE27AADE2C00F480ED /* Carta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carta.swift; sourceTree = "<group>"; };
 		33ED2DD127AAE06B00F480ED /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 		33ED2DD327AAE1FF00F480ED /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
 		33ED2DD527AAE54800F480ED /* PerfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilViewController.swift; sourceTree = "<group>"; };
+=======
+		33B281F727A47CEC00AEB55C /* CartaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartaCell.swift; sourceTree = "<group>"; };
+>>>>>>> main
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,23 +94,29 @@
 		335EF07827A3136B0035A467 /* CardAppProyect */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				33ED2DD027AADE4F00F480ED /* New Group */,
 				337DB94827A46F1000AAD2D3 /* HomeViewController.swift */,
 				33ED2DD527AAE54800F480ED /* PerfilViewController.swift */,
 				337DB94B27A46F1000AAD2D3 /* LoginViewController.swift */,
 				337DB94927A46F1000AAD2D3 /* RegisterViewController.swift */,
 				337DB94A27A46F1000AAD2D3 /* SearchViewController.swift */,
+=======
+				33B281F627A47A9C00AEB55C /* controllers */,
+				33B281F527A47A9500AEB55C /* cells */,
+				33B281F427A47A8E00AEB55C /* layouts */,
+>>>>>>> main
 				335EF07927A3136C0035A467 /* AppDelegate.swift */,
-				335EF09927A3197E0035A467 /* DaniStoryboard.storyboard */,
-				335EF09B27A3198F0035A467 /* TonyStoryboard.storyboard */,
-				335EF09D27A319980035A467 /* CesarStoryboard.storyboard */,
 				335EF07B27A3136C0035A467 /* SceneDelegate.swift */,
 				335EF07D27A3136C0035A467 /* ViewController.swift */,
+<<<<<<< HEAD
 				335EF07F27A3136C0035A467 /* Main.storyboard */,
 				337DB95027A474C100AAD2D3 /* User.storyboard */,
 				335EF08D27A315760035A467 /* UserStoryboard.storyboard */,
 				3334EAF327A9AC8A006F6CA5 /* Cards.json */,
 				33ED2DD327AAE1FF00F480ED /* CardCell.swift */,
+=======
+>>>>>>> main
 				335EF08227A3136D0035A467 /* Assets.xcassets */,
 				335EF08427A3136D0035A467 /* LaunchScreen.storyboard */,
 				335EF08727A3136D0035A467 /* Info.plist */,
@@ -110,6 +124,7 @@
 			path = CardAppProyect;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		33ED2DD027AADE4F00F480ED /* New Group */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +133,37 @@
 				33ED2DCC27AADD7000F480ED /* ModeloCarta.swift */,
 			);
 			path = "New Group";
+=======
+		33B281F427A47A8E00AEB55C /* layouts */ = {
+			isa = PBXGroup;
+			children = (
+				335EF09927A3197E0035A467 /* DaniStoryboard.storyboard */,
+				335EF09B27A3198F0035A467 /* TonyStoryboard.storyboard */,
+				335EF09D27A319980035A467 /* CesarStoryboard.storyboard */,
+				335EF07F27A3136C0035A467 /* Main.storyboard */,
+				335EF08D27A315760035A467 /* UserStoryboard.storyboard */,
+			);
+			path = layouts;
+			sourceTree = "<group>";
+		};
+		33B281F527A47A9500AEB55C /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				33B281F727A47CEC00AEB55C /* CartaCell.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		33B281F627A47A9C00AEB55C /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				337DB94827A46F1000AAD2D3 /* HomeViewController.swift */,
+				337DB94B27A46F1000AAD2D3 /* LoginViewController.swift */,
+				337DB94927A46F1000AAD2D3 /* RegisterViewController.swift */,
+				337DB94A27A46F1000AAD2D3 /* SearchViewController.swift */,
+			);
+			path = controllers;
+>>>>>>> main
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +247,7 @@
 				335EF07E27A3136C0035A467 /* ViewController.swift in Sources */,
 				337DB94D27A46F1100AAD2D3 /* RegisterViewController.swift in Sources */,
 				335EF07A27A3136C0035A467 /* AppDelegate.swift in Sources */,
+				33B281F827A47CEC00AEB55C /* CartaCell.swift in Sources */,
 				335EF07C27A3136C0035A467 /* SceneDelegate.swift in Sources */,
 				33ED2DD627AAE54800F480ED /* PerfilViewController.swift in Sources */,
 				337DB94C27A46F1100AAD2D3 /* HomeViewController.swift in Sources */,
